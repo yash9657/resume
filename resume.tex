@@ -1,0 +1,188 @@
+%-------------------------
+% Resume in Latex
+% Author : Yash Bhalgat
+% Website: https://github.com/yash9657
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex, hidelinks]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{}{\Large Yash Bhalgat}} & Email : \href{}{yashbhalgat9657@gmail.com}\\
+  \href{https://yashbhalgat.netlify.app/}{https://yashbhalgat.netlify.app/} & Mobile : +1-949-745-7320 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California Riverside}{Riverside, CA}
+      {Master of Science in Computer Science;  GPA: 3.76/4.00}{Sep. 2023 -- Current}
+    \resumeSubheading
+      {Pune Institute of Computer Technology}{Pune, India}
+      {Bachelor of Engineering in Computer Engineering with honors in Data Science;  GPA: 4.6/5}{Aug. 2019 -- July. 2023}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Mainstreet Marketplace}{Mumbai, India}
+      {Software Engineer Intern}{June 2020 - Apr 2021}
+      \resumeItemListStart
+        \resumeItem{Microfrontend}
+          {Worked on breaking down a large frontend application into independent, and loosely coupled components, each responsible for a specific feature, this improved code readability and removed 70\% sonar smells.}
+        \resumeItem{Third Party Listing}
+          {Built a new income stream by allowing customers to list their items on the website by sending the data to Shopify account, this generated a 20\% profit margin with no investment on inventory.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Vidyo AI}{Bangalore, India}
+      {Software Engineer Intern}{Jan 2022 - May 2022}
+      \resumeItemListStart
+        \resumeItem{Ideate Flow}
+          {Lead fellow interns in creating an entire flow that helps creators find topics to make content on based on current trends and hot topics, upon usage of the beta version this feature received 6,000 signups for the launch of the main feature rollout.}
+        \resumeItem{Video Editing Tool}
+          {Built a simple-to-use video editing tool to get frame-wise precision, development allowed users to move to the next step saving 25\% of the total journey time compared to the previous tool.}
+        \resumeItem{Subtitles}
+          {Created subtitle feature for uploaded videos.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Bajaj Finserv Health Limited}{Pune, India}
+      {React Developer Intern}{Jan 2023 - May 2023}
+      \resumeItemListStart
+        \resumeItem{DoctorRx}
+          {Worked on the front-end of the practice management software for doctors using React \& Typescript.}
+        \resumeItem{EMR}
+          {Played a key role in the development of the version 3.0 of the electronic medical record software.}
+        \resumeItem{HealthPay}
+          {Make a payment by scanning a QR code and utilizing their existing health plans in payment journey.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+\section{Awards and Honours}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Maharashtra Government Scholarship}
+      {Maharashtra government scholarship in class 4 (state level exam conducted by Maharashtra State Council of Examination) and class 10 (92 percentage scored in state level board exam).}
+    \resumeSubItem{Indian Institute of Science}
+      {Kishore Vaigyanik Protsahan Yojana (KVPY) Scholar in the year 2018.}
+    \resumeSubItem{IMO - Pune city}
+      {Ranked 1st in city-wide Math Olympiad in the year 2015.}
+    \resumeSubItem{Mumbai Science Teachers Association}
+      {Dr. Homi Bhabha Balvaidnyanik Competition Scholar in the year 2016.}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Decentralized App}
+      {Web 3.0 Decentralized application with Metamask pairing, Smart Contract data fetching and ability to create ERC20 tokens.}
+    \resumeSubItem{Video Calling App}
+      {A web app to make video calls with unique chatroom IDs using React JS, WebRTC, Socket.io.}
+    \resumeSubItem{Sign Language Detection}
+      {Using mediapipe to get keypoints of the camera feed and displaying the sign-to-text real time translation using a LSTM model which is trained on self inputted video data of 30 frames each.}
+    \resumeSubItem{pacmanAI}
+      {Built pacman search agents which finds paths in the maze world automatically both to reach a particular location and to collect food efficiently.}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+\section{Organizations}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Technical}{: Association for Computing Machinery (PICT ACM), IEEE, Google Developer Student Club (GDSC).}
+     \textbf{Non-Technical}{: PICT Model United Nations, PICT Debate Society, Sahayta (blood donation drives)}
+   }
+ \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Languages}{: C, C++, Python, Javascript, Typescript, SQL}
+     \hfill
+     \textbf{JS Frameworks}{: React, Next, Node JS}
+     \newline
+     \textbf{Tools}{: Azure DevOps, Git}
+     \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \; \: \:
+     \textbf{Methodology}{: Agile Development}
+   }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
